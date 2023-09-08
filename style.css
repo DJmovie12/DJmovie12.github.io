@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.arka-plan {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #5a1100, #3b2900, #002507,#2b001e, #001841, #270042); /* İstediğiniz renkleri burada belirtin */
+    z-index: -1;
+}
+.text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+.yazi {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b001e;
+    font-family:  "Comic Sans MS", cursive;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.codes{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.code {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 180px;
+    margin: 10px;
+    border: 2px solid #ff83837e;
+    border-radius: 15px;
+    color: gold;
+    font-size: 15px;
+    display: flex;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.code:hover {
+    border: 2px solid #ff0000;
+    transform: scale(1.1);
+}
+
+.img1{
+    background-image: url(img/wtf.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+}
+.img2{
+    background-image: url(img/key.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+}
+.img3{
+    background-image: url(img/hell.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+}
+.img4{
+    background-image: url(img/hells.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+}
