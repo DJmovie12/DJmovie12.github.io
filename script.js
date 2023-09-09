@@ -8,6 +8,7 @@ var clickcount = parseInt(localStorage.getItem('clickcount')) || 0;
 function incrementClickCount() {
     clickcount++;
     localStorage.setItem('clickcount', clickcount.toString());
+    window.location.href = "https://www.youtube.com/watch?v=QXkNeiNzDOU";
 }
 
 img1.addEventListener("click", function () {
