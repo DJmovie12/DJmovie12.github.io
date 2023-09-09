@@ -13,7 +13,6 @@ function incrementClickCount() {
 img1.addEventListener("click", function () {
     incrementClickCount();
     console.log("Toplam tıklama sayısı: " + clickcount);
-    window.location.href = "https://www.youtube.com/watch?v=QXkNeiNzDOU";
 });
 
 img2.addEventListener("click", function () {
