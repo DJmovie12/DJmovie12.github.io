@@ -46,6 +46,7 @@ body {
 .code {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     height: 250px;
     width: 180px;
     margin: 10px;
